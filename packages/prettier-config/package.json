@@ -1,6 +1,6 @@
 {
   "name": "@benfeather/prettier-config",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "main": "./prettier-config.cjs",
   "peerDependencies": {
     "prettier": "^3.2.5"

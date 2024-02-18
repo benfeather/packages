@@ -1,6 +1,6 @@
 {
   "name": "@benfeather/eslint-config",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "main": "./eslint-config.cjs",
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^7.0.1",

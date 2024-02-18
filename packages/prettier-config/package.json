@@ -7,8 +7,5 @@
   },
   "publishConfig": {
     "access": "public"
-  },
-  "scripts": {
-    "publish-manual": "npm publish"
   }
 }

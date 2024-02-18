@@ -1,0 +1,14 @@
+{
+  "name": "@benfeather/packages",
+  "version": "1.0.0",
+  "description": "Monorepo for various packages.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ben Feather",
+  "license": "ISC",
+  "devDependencies": {
+    "@benfeather/eslint-config": "^1.0.0",
+    "@benfeather/prettier-config": "^1.0.0"
+  }
+}

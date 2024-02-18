@@ -1,6 +1,6 @@
 {
   "name": "@benfeather/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "./eslint-config.cjs",
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^7.0.1",
@@ -20,9 +20,6 @@
     "vue-eslint-parser": {
       "optional": true
     }
-  },
-  "scripts": {
-    "publish-manual": "npm publish"
   },
   "publishConfig": {
     "access": "public"

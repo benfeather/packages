@@ -1,0 +1,14 @@
+{
+  "name": "@benfeather/prettier-config",
+  "version": "1.0.0",
+  "main": "./prettier-config.cjs",
+  "peerDependencies": {
+    "prettier": "^3.2.5"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "publish-manual": "npm publish"
+  }
+}

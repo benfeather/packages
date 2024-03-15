@@ -19,6 +19,9 @@ jobs:
         with:
           node-version: 20
           registry-url: https://registry.npmjs.org
+      - name: version
+        run: npm --no-git-tag-version version "1.0.$GITHUB_RUN_NUMBER" -m "Upgrade to new version"
+        working-directory: packages/eslint-config
       - name: publish
         run: npm publish --access public
         working-directory: packages/eslint-config

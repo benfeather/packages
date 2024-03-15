@@ -3,5 +3,7 @@
     "browser": true,
     "node": true,
   },
-  "extends": ["@benfeather/eslint-config"],
+  "extends": ["@benfeather/eslint-config/vue"],
+  "ignorePatterns": ["node_modules"],
+  "root": true,
 }

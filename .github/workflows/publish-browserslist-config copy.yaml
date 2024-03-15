@@ -1,15 +1,15 @@
-name: 'publish-prettier-config'
+name: 'publish-browserslist-config'
 
 on:
   push:
     branches:
       - master
     paths:
-      - 'packages/prettier-config/**'
+      - 'packages/browserslist-config/**'
 
 jobs:
   publish:
-    name: publish-prettier-config
+    name: publish-browserslist-config
     runs-on: ubuntu-latest
     steps:
       - name: checkout
@@ -21,9 +21,9 @@ jobs:
           registry-url: https://registry.npmjs.org
       - name: version
         run: npm --no-git-tag-version version "1.0.$GITHUB_RUN_NUMBER" -m "Upgrade to new version"
-        working-directory: packages/prettier-config
+        working-directory: packages/browserslist-config
       - name: publish
         run: npm publish --access public
-        working-directory: packages/prettier-config
+        working-directory: packages/browserslist-config
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}
